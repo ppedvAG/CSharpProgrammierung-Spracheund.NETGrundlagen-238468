@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M002", "M002\M002.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M003", "M003\M003.csproj", "{B6C8F861-FE3E-4E20-B5AA-C8E688FE48ED}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7433A43D-33B3-4251-9B65-66E2FD215569}"
+	ProjectSection(SolutionItems) = preProject
+		Shortcuts.txt = Shortcuts.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M004", "M004\M004.csproj", "{4B8926D1-3A1B-4F38-A225-ECE5D3680D56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +34,10 @@ Global
 		{B6C8F861-FE3E-4E20-B5AA-C8E688FE48ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6C8F861-FE3E-4E20-B5AA-C8E688FE48ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6C8F861-FE3E-4E20-B5AA-C8E688FE48ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B8926D1-3A1B-4F38-A225-ECE5D3680D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8926D1-3A1B-4F38-A225-ECE5D3680D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8926D1-3A1B-4F38-A225-ECE5D3680D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8926D1-3A1B-4F38-A225-ECE5D3680D56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

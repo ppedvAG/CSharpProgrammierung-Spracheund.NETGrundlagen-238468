@@ -1,0 +1,2 @@
+Strg + Leertaste: Vorschläge öffnen
+Strg + .: Schnellvorschläge anzeigen

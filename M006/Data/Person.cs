@@ -1,6 +1,4 @@
-﻿using System.Net.Http.Headers;
-
-namespace M006;
+﻿namespace M006.Data;
 
 /// <summary>
 /// Klasse: Bauplan für Objekte, hier wird die Struktur der Objekte festgelegt über Variablen, Methoden, ...

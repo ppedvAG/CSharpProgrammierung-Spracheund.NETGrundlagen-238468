@@ -19,7 +19,7 @@ internal class Program
 		//-> Jedes Objekt ist mit einer Variable vom Typ object kompatibel
 		object o = new object();
 		o = new Mensch();
-		o = new Lebewesen();
+		//o = new Lebewesen();
 		o = 123;
 		o = true;
 		o = "Hallo";
@@ -28,7 +28,7 @@ internal class Program
 		Test(123);
 		Test("Hallo");
 
-		PrintLebewesen(new Lebewesen());
+		//PrintLebewesen(new Lebewesen());
 		PrintLebewesen(new Mensch());
 		PrintLebewesen(new Hund());
 		#endregion

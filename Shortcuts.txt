@@ -1,2 +1,3 @@
 Strg + Leertaste: Vorschläge öffnen
 Strg + .: Schnellvorschläge anzeigen
+Strg + R, R: Name umbenennen

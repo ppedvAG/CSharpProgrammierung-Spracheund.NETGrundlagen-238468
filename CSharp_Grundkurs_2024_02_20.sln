@@ -38,6 +38,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M015", "M015\M015.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M013_Tests", "M013_Tests\M013_Tests.csproj", "{A2252DA1-6CF1-49D8-9864-06FC40452BB8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M014", "M014\M014.csproj", "{A85AD719-4599-4B84-B92E-5444EEE5802E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M015_WinForms", "M015_WinForms\M015_WinForms.csproj", "{1182FF32-47BB-4314-BB37-933FE2C71D6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -104,6 +108,14 @@ Global
 		{A2252DA1-6CF1-49D8-9864-06FC40452BB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2252DA1-6CF1-49D8-9864-06FC40452BB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2252DA1-6CF1-49D8-9864-06FC40452BB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85AD719-4599-4B84-B92E-5444EEE5802E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85AD719-4599-4B84-B92E-5444EEE5802E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85AD719-4599-4B84-B92E-5444EEE5802E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85AD719-4599-4B84-B92E-5444EEE5802E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1182FF32-47BB-4314-BB37-933FE2C71D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1182FF32-47BB-4314-BB37-933FE2C71D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1182FF32-47BB-4314-BB37-933FE2C71D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1182FF32-47BB-4314-BB37-933FE2C71D6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

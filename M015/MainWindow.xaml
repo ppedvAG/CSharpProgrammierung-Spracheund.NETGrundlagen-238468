@@ -1,12 +1,49 @@
 ﻿<Window x:Class="M015.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:M015"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-		<TextBlock x:Name="TB" FontSize="24"/>
-	</Grid>
+		
+        Title="MainWindow"
+		Height="450"
+		Width="300"
+		WindowStartupLocation="CenterScreen"
+		Background="LightGreen">
+    <StackPanel Margin="5">
+		<Button Click="Button_Click"
+				Content="Test"
+				FontSize="24"
+				Background="Aqua"/>
+		<TextBlock Name="TB"
+				   TextAlignment="Center"
+				   FontSize="24"/>
+		<ComboBox Name="CB"
+				  SelectionChanged="CB_SelectionChanged"/>
+		<ListBox Name="LB"
+				 SelectionChanged="LB_SelectionChanged"
+				 SelectionMode="Extended"/>
+		<CheckBox Name="Check"
+				  Checked="Check_Checked"
+				  Unchecked="Check_Unchecked"
+				  Content="Eine CheckBox"/>
+		<RadioButton GroupName="RB1"/>
+		<RadioButton GroupName="RB1"/>
+		<RadioButton GroupName="RB1"/>
+		<Separator/>
+		<RadioButton GroupName="RB2"/>
+		<RadioButton GroupName="RB2"/>
+		<Slider Name="Slide"
+				ValueChanged="Slider_ValueChanged"
+				Minimum="-10"
+				Maximum="100"
+				Value="90"
+				TickFrequency="1"
+				IsSnapToTickEnabled="True"/> <!--Mit den letzten beiden Optionen den Slider ganzzahlig machen-->
+		<TextBox Name="Eingabe"/>
+		<ProgressBar Name="Progress"
+					 Height="30"
+					 Minimum="0"
+					 Maximum="100"
+					 Foreground="Orange"/>
+		<Button Content="DataView öffnen"
+				Click="Button_Click_1"/>
+	</StackPanel>
 </Window>
